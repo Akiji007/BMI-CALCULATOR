@@ -1,0 +1,34 @@
+body{
+    color: rgb(245, 14, 14);
+    font-family: sans-serif;
+    background: linear-gradient(to right, #74f000, #00fcfc);
+}
+span{
+    color: rgb(161, 148, 148);
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    padding: 15px;
+    width: 50%;
+    background: linear-gradient(to right, #00fcfc, #74f000);
+    border-radius: 5px;
+    box-shadow: rgb(194, 209, 224) 0px 20px 30px -10px;
+}
+input{
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+button{
+    color: rgb(255, 0, 0);
+    padding: 10px;
+    font-size: large;
+    border: 2px solid rgb(211, 130, 130);
+    background: rgb(239, 243, 6);
+    display: block;
+    margin-top: 10%;
+    cursor: pointer;
+}
